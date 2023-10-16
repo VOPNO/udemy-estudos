@@ -27,4 +27,4 @@ HTML5 e CSS3 (Bônus Extra)
 
 ## Sobre este repositorio
 
-O objetivo deste repositorio é reunir todos os projetos deste curso, estou começando dia 14/10/2023. Vou atualizar o repositorio conforme eu avançar no curso.     
+O objetivo deste repositorio é reunir todos os projetos deste curso, estou começando dia 14/10/2023. Vou atualizar o repositorio conforme eu for avançando no curso.     
