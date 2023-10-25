@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios e Inputs em HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formularios e inputs</h1>
+    <form action="#" method="get"  autocomplete="off" class="formulario">
+        <section>
+            <fieldset>
+                <legend>
+                    <h3>Sobre você</h3>
+                </legend>
+                    <label for="name" >
+                        Nome: <input type="text" id="name" class="perguntas" placeholder="Seu nome">
+                    </label>
+
+                    <label for="idade">
+                        Idade: <input type="number" id="idade" class="perguntas">
+                    </label>
+
+                    <label for="data-nascimento">
+                        Data de nascimento: <input type="date" id="data-nascimento" class="perguntas">
+                    </label>
+
+                    <label for="numero-tel">
+                        Número de telefone: <input type="tel" id="numero-tel" class="perguntas"><br>
+                    </label>
+
+                    <label for="end">
+                        Endereço: <input type="text" id="end" class="perguntas">
+                    </label>
+
+                    
+
+                    <label for="sexo">
+                        Sexo:
+                    </label>
+                    <label for="fem">
+                        <input type="radio" id="fem" name="sexo" class="perguntas">Feminino
+                    </label>
+                    <label for="masc">
+                        <input type="radio" id="masc" name="sexo" class="perguntas">Masculino
+                    </label>
+                    <label for="submit">
+                        <input type="submit">
+                    </label>
+                    <label for="reset">
+                        <input type="reset" id="reset ">
+                    </label>
+            </fieldset>
+        </section>
+    </form>
+</body>
+</html>
