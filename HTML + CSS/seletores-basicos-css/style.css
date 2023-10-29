@@ -1,0 +1,28 @@
+* /*Seleciona todos os elementos da pagina */{ 
+    border: red;
+} 
+
+p /*Seleciona todos os elementos que tiver essa tag, no caso todos os paragrafos */ {
+    color: red;
+}
+
+body div section p /*Seleciona todos os elementos que forem child(filho) de body, div e estiverem dentro da section e seja p (paragrafo). (Seleção por descendencia)*/{
+    background: cyan;
+}
+
+body div section p,
+body div section h1 /*Multipla seleção, selecina tanto os p (Paragrafos) que estiverem dentro da section, quanto os h1*/{
+    background: cyan;
+}
+
+.titulo /*Seleciona todos os elementos que tiverem está classe */ {
+    background: gray;
+}
+
+#primeiro-p /*Seleciona o elemento que tiver esse ID */ {
+    background: purple;
+}
+
+[terceiro-p="5"]{
+    background: pink;
+}
