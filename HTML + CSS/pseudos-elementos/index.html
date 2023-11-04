@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudos Elementos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Pseudos Elementos</h1>
+            <nav class="nav">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="#oqueE">Oque é um Pseudo Elemento</a>
+                    </li>
+                    <li>
+                        <a href="#sintax">Sintax de um Pseudo Elemento</a>
+                    </li>
+                    <li>
+                        <a href="#princ">Principais tags de Pseudos Classes</a>
+                    </li>
+                    <li>
+                        <a href="#oqueFaz">Oque cada tag faz</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2 id="oqueE">Oque é um Pseudo Elemento?</h2>
+            <p>É um recurso que permite estilizar partes específicas de um elemento HTML.</p>
+
+            <h2 id="sintax">Sintax de um Pseudo Elemento</h2>
+            
+                <pre>Seletor::pseudo-elemento {
+        propridade: valor;
+            }
+                </pre>
+            
+                <h2 id="princ">Principais tags de Pseudos Classes</h2>
+                <p><code>::after</code></p>
+                <p><code>::before</code></p>
+                <p><code>::first-letter</code></p>
+                <p><code>::first-line</code></p>
+                <p><code>::selection</code></p>
+
+                <h2 id="oqueFaz">Oque cada tag faz</h2>
+
+                <h3><code>::after</code></h3>
+                <p class="pAfter">O pseudo-elemento ::after é usado para inserir conteúdo após o conteúdo do elemento selecionado. <br>Exemplo: <br></p>
+
+                <h3><code>::before</code></h3>
+                <p>O pseudo-elemento ::before é semelhante ao ::after, mas é usado para inserir conteúdo antes do conteúdo do elemento selecionado.</p>
+                <p class="pBefore"> <br> Texto de Exemplo</p>
+
+                <h3><code>::first-letter</code></h3>
+                <p>O pseudo-elemento ::first-letter seleciona a primeira letra dentro de um elemento. <br></p>
+                <p class="pLetter">Teste de exemplo</p>
+
+                <h3><code>::first-line</code></h3>
+                <p>O pseudo-elemento ::first-line seleciona a primeira linha de texto dentro de um elemento. <br></p>
+                <p class="pLine">Texto de exemplo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab pariatur inventore ullam esse </p>
+
+                <h3><code>::selection</code></h3>
+                <p>O pseudo-elemento ::selection permite estilizar o texto selecionado pelo usuário em uma página da web. <br></p>
+                <p class="pSelec">Texto de exemplo</p>
+        </main>
+        <footer>
+            <h4>Dev by @GGL</h4>
+        </footer>
+    </section>
+</body>
+</html>

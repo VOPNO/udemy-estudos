@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.cabecalho {
+    margin: 10px;
+}
+.mnNav {
+    margin: 10px;
+}
+.mnNav ul li a {
+    margin: 20px;
+    text-decoration: none;
+    
+}
+.headding2, .headding3, .headding4 {
+    margin: 10px;
+}
+.main {
+    margin: 10px;
+}
+
+
+.buttonActive {
+    transition: 1s;
+}
+.buttonActive:active {
+    background: rgba(255, 0, 0, 0.438);
+}
+
+
+.ulFirts li:first-child {
+    color: red;
+}
+
+
+.inputFocus:focus {
+    background: rgba(0, 128, 0, 0.329);
+    border-color: green;
+    border: 1px;
+}
+
+.hover {
+    display: block;
+}
+.hover:hover {
+    background: rgb(255, 0, 0);
+}
+
+.ulLast li:last-child{
+    color: red;
+}
+
+.ulNot li:not(.meio){
+    color: red;
+}
+
+.ulNth li:nth-child(2){
+    color: red;
+}
+
+
+
+.rodape h5 {
+    text-align: center;
+    width: 120px;
+    font-style: italic;
+}

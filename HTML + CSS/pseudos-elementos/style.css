@@ -1,0 +1,30 @@
+
+
+.pAfter::after {
+    content: 'Esse texto foi inserido através das CSS.';
+} 
+
+.pBefore::before {
+    content: 'Esse texto foi inserido através das CSS.';
+}
+
+.pLetter::first-letter {
+    color: red;
+}
+
+.pLine::first-line {
+    color: red;
+}
+
+.pSelec::selection {
+    background-color: black;
+    color: white;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 15px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendo as Pseudos Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section>      
+       <header class="cabecalho">
+           <h1>Pseudos Classes</h1>
+           <nav class="mnNav">
+               <ul style="list-style-type: none;">
+                   <li>
+                       <a href="#oqueE">Oque é uma Pseudo-Classe</a>
+                   </li>
+
+                    <li> 
+                        <a href="#sintaxPseudo">Sintax de uma Pseudo Classe</a>
+                    </li>
+                    
+                    <li>
+                       <a href="#tagComum">Tags mais comuns</a>
+                   </li>
+
+                   <li>
+                       <a href="#oqueFaz">Oque faz cada tag?</a>
+                   </li>
+
+               </ul>
+           </nav>
+       </header>
+        <main class="main">
+            <h2 id="oqueE" class="headding2">Oque é uma Pseudo Classe?</h2>
+            <p>Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, <code>:hover</code> pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele.</p>
+
+            <h2 class="headding2" id="sintaxPseudo">Sintax de uma Pseudo Classe</h2>
+            <code>
+                <pre>Seletor:pseudo-classe {
+    propriedade: valor;
+                      }</pre>
+            </code>
+            <h2 id="tagComum" class="headding2">Tags mais comuns de Pseudos-Classes</h2>
+            <code>
+                <p>:active</p>
+                <p>:first-child</p>
+                <p>:focus</p>
+                <p>:hover</p>
+                <p>:last-child</p>
+                <p>:not(selector)</p>
+                <p>:nth-child(n)</p>
+            </code>
+            <section>
+                <h3 id="oqueFaz" class="headding3">Oque faz cada tag?</h3>
+                <h4 class="headding4"><code>:active</code></h4>
+                <p>Esta pseudo-classe é usada para estilizar um elemento quando ele está ativo, como quando um botão é clicado. Pode ser útil para fornecer feedback visual imediato ao usuário quando um elemento está sendo pressionado.
+                    Exemplo:
+                </p><br>
+                <button class="buttonActive">Aperte</button>
+                <br>
+
+                <h4 class="headding4"><code>:first-child</code></h4>
+                <p>Esta pseudo-classe seleciona o primeiro filho de um elemento pai. Você pode usá-la para estilizar o primeiro elemento de uma lista, por exemplo. <br>
+                    Exemplo:
+                </p>
+                <br>
+                <ul class="ulFirts">
+                    <li>Teste</li>
+                    <li>Teste</li>
+                    <li>Teste</li>
+                </ul>
+
+                <br>
+                <h4 class="headding4"><code>:focus</code></h4>
+                <p> Esta pseudo-classe é usada para estilizar um elemento quando ele está focado, geralmente através de um clique do mouse ou navegação por teclado. É comumente usado para estilizar campos de entrada em formulários. <br>Exemplo:</p><br>
+                <input type="text" class="inputFocus">
+                <br>
+    
+                <h4 class="headding4"><code>:hover</code></h4>
+                <p>Esta pseudo-classe é usada para estilizar um elemento quando o ponteiro do mouse está sobre ele. É comumente usado para criar efeitos de hover, como alterar a cor de fundo de um link quando o mouse passa por cima. <br>Exemplo:</p><br>
+
+                <div class="hover"><p>Passe o mouse aqui</p></div><br>
+
+                <code>
+                    <h4 class="headding4">:last-child</h4>
+                </code>
+                <p>Similar ao <code>:first-child</code>, esta pseudo-classe seleciona o último filho de um elemento pai. <br>Exemplo:</p><br>
+                <ul class="ulLast">
+                    <li>Teste</li>
+                    <li>Teste</li>
+                    <li>Teste</li>
+                </ul><br>
+    
+                <h4 class="headding4"><code>:not(selector)</code></h4>
+                <p>Esta pseudo-classe permite selecionar elementos que não correspondem a um seletor especificado. É útil quando você deseja aplicar um estilo a todos os elementos, exceto aqueles que correspondem a um determinado seletor. <br>Exemplo:</p><br>
+                <ul class="ulNot">
+                    <li>Teste</li>
+                    <li class="meio">Teste</li>
+                    <li>Teste</li>
+                </ul><br>
+    
+                <h4 class="headding4"><code>:nth-child(n)</code></h4>
+                <p> Esta pseudo-classe permite selecionar elementos com base em sua posição em relação a seus irmãos. Você pode especificar um número para selecionar o enésimo elemento. Isso é útil para estilizar elementos em uma grade ou lista de maneira específica. <br>Exemplo:</p><br>
+                <ul class="ulNth">
+                    <li>Teste</li>
+                    <li>Teste</li>
+                    <li>Teste</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="rodape">
+            <h5>Dev by @GGL</h5>
+        </footer>
+   </section>
+</body>
+</html>
