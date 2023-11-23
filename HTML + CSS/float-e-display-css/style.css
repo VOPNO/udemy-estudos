@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    margin: 20px;
+    background: red;
+    float: left;
+}
+p {
+    clear: left;
+}
