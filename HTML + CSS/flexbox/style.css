@@ -1,0 +1,22 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.flex-container {
+    background: yellow;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: ;
+} 
+
+
+.flex-item {
+    background: red;
+}

@@ -1,0 +1,59 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 67.5%;
+    scroll-behavior: smooth;
+}
+
+.menu {
+    width: 100vw;
+    height: 5rem;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+}
+
+h1, h2 {
+    display: inline;
+    
+}
+h1 {
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.caixa {
+    height: 100vh;
+}
+
+.caixa:first-child {
+    background: yellow;
+}
+
+.caixa:last-child {
+    background: blue;
+}
+
+[cor="vermelho"] {
+    background: red;
+}
+
+[cor="verde"] {
+    background: green;
+}
+
+[cor="roxo"] {
+    background: purple;
+}
