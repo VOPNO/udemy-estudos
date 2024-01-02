@@ -10,3 +10,5 @@ Operadores de comparação
 !== diferença estrita
 */
 
+let calc = 0 < null;
+console.log(calc)
