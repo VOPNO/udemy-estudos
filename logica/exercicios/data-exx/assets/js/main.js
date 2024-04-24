@@ -1,3 +1,9 @@
+setTimeout(() => {
+    window.location.reload();
+    console.log('Reload')
+},
+10000);
+
 const insert = document.querySelector('#data')
 
 const data = new Date();
@@ -15,7 +21,7 @@ function definirData() {
     const hora = data.getHours();
     const min = data.getMinutes()
 
-    return `${definirDiaSemana(diaSem)}, ${dia} de ${definirMes(mes)} de  ${ano} <br> ${hora}:${min} `
+    return `${definirDiaSemana(diaSem)}, ${zeroAEsquerda(dia)} de ${definirMes(mes)} de  ${ano} <br> ${zeroAEsquerda(hora)}:${zeroAEsquerda(min)} `
 
 
 }
@@ -89,6 +95,14 @@ function definirMes(m){
         default:
             return 'Algum erro desconhecido aconteceu.'
     }   
+}
+
+function zeroAEsquerda(n){
+    if(n < 10){
+        return `0${n}`;
+    } else {
+        return n;    
+    }
 }
 
 exibindo()
