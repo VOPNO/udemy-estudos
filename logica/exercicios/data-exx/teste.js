@@ -1,2 +1,2 @@
 const data = new Date()
-console.log(data.getDay())
+console.log(typeof(data.getDay()))

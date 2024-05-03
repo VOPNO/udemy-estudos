@@ -1,15 +1,15 @@
 setTimeout(() => {
     window.location.reload();
-    console.log('Reload')
+    console.log('Reload');
 },
 10000);
 
-const insert = document.querySelector('#data')
+const insert = document.querySelector('#data');
 
 const data = new Date();
 
 function exibindo(){
-    insert.innerHTML = `${definirData()}`
+    insert.innerHTML = `${definirData()}`;
 }
 
 function definirData() {
