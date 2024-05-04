@@ -9,6 +9,6 @@ const pessoa = {
     }
 }
 
-const { nome, idade , endereco } = pessoa
+const {endereco: {rua, numero} } = pessoa
 
-console.log(nome, idade, endereco)
+console.log(`Rua ${rua}, ${numero}`)
